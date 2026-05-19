@@ -1,0 +1,1 @@
+import{j as e}from"./index-D3MrbN-G.js";import{C as a}from"./format-Dkoi5UPW.js";function i({value:o,onChange:r}){return e.jsx("div",{className:"tabs",children:a.map(t=>e.jsx("button",{type:"button",className:`tab-btn ${o===t.code?"active":""}`,onClick:()=>r(t.code),children:t.label},t.code))})}export{i as C};
